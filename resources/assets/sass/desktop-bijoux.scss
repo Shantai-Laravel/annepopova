@@ -1,0 +1,157 @@
+@import "./desktop-variables.scss";
+.homeContent {
+
+  .points {
+    background: $fonAbout-apj;
+  }
+  .points #Home_Page_375,
+  .points .item span,
+  .points a {
+    fill: $color-olive;
+    color: $color-olive;
+  }
+
+  aside {
+
+    h4 {
+      color: $color-olive;
+    }
+  }
+  .about .text h4 {
+    color: $color-olive;
+  }
+
+  .collection {
+    background: $collection-page-seturi-impare-background-apj;
+  }
+  .collection:nth-child(even) {
+    background: $collection-page-seturi-pare-background-apj;
+  }
+
+  .about {
+    background: $fonAbout-apj;
+  }
+}
+
+.oneProduct {
+
+  a {
+    color: $color-olive;
+  }
+  .price {
+    color: $color-olive;
+  }
+}
+
+.categoryContent {
+  background-image: $image-silver-bg;
+
+  .titleabs {
+    color: $color-olive;
+  }
+  .filterContainer {
+    background-image: url(/fronts/img/backgrounds/footer.jpg);
+
+    #filterButton,
+    .filterButton,
+    .checkContainer,
+    button {
+      color: $color-olive;
+    }
+
+    #filterButton {
+      span:nth-child(2) {
+          background-image: url(/fronts_mobile/img/icons/plusIconGreen.svg);
+      }
+      span:first-child {
+          background-image: url(/fronts/img/icons/filterIconJrw.svg);
+      }
+    }
+    .filterButton {
+      background-image: url(/fronts_mobile/img/icons/plusIconGreen.svg);
+    }
+    .filterButton.active {
+      background-image: url(/fronts_mobile/img/icons/minusIconGreen.svg);
+    }
+    button:first-child {
+        background-image: $image-silver-bg;
+        background-size: 100% 100%;
+    }
+  }
+}
+
+.oneProductContent {
+
+  section {
+    background-image: $image-silver-bg;
+  }
+  aside .name {
+    color: $color-olive;
+  }
+  .addToCart {
+    color: $color-olive;
+    #Shape {
+      fill: $color-olive;
+    }
+  }
+  .additionalSlide .title {
+    color: $color-olive;
+  }
+}
+
+.titlePage h3 {
+  color: $color-olive;
+}
+
+.collectionContent {
+
+  section:nth-child(odd) {
+    background-image: $image-gold-bg;
+  }
+
+  section:nth-child(even) {
+    background-image: $image-silver-bg;
+  }
+
+  .buttonsSet {
+
+    span {
+      color: $color-olive;
+    }
+
+    #wishButton,
+    #cartButton,
+    #Shape {
+      fill: $color-olive;
+    }
+
+    .wishButton {
+        background-image: url(/fronts/img/backgrounds/onSubmit.jpg);
+    }
+  }
+
+}
+
+.outlet, .promo, .wishContent {
+  background-image: $image-silver-bg;
+
+  .additionalSlide .title{
+    color: $color-olive
+  }
+}
+
+.contactContent {
+  background: $fonBody-apj;
+
+  .imageContainer {
+    background: $fonBody-apj
+  }
+
+  .fonop {
+    background-color: rgba($color: $fonBody-apj, $alpha: 0.7);
+  }
+}
+
+.aboutContent {
+  background: $fonBody-apj;
+}

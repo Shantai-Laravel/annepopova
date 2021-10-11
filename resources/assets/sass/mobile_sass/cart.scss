@@ -1,0 +1,516 @@
+.cartClass {
+  padding-top: 93px;
+  padding-bottom: 100px;
+  background: $fonBody;
+  background-repeat: repeat-y;
+  background-size: 100%;
+
+  h3 {
+    font-family: $fontGillSansLight;
+    font-size: $font-size-big;
+    color: $color-caramiziu;
+    letter-spacing: -0.03px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.4;
+  }
+}
+
+.cartClass.shippingBum {
+  h3 {
+    line-height: 3;
+  }
+}
+
+.undoStatic {
+  width: 40px;
+  height: 60px;
+  background-image: url(/fronts_mobile/img/icons/undo.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  margin: 10px 0;
+
+  &:active {
+    background-size: 15px;
+  }
+}
+
+.productsList {
+  padding: 20px 0;
+}
+
+.cartItem {
+  display: flex;
+  margin-bottom: 40px;
+
+  img {
+    width: 100px;
+    background: #FDF9F6;
+    box-shadow: 0 9px 11px 0 #DDCBB7;
+  }
+  .description {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    a {
+      font-family: $fontGillSansLight;
+      font-size: $font-size-standard;
+      color: $color-standart;
+      letter-spacing: -0.02px;
+      line-height: 1.1;
+    }
+  }
+  .price {
+    font-family: $fontGillSansLight;
+    font-size: $font-size-standard;
+    color: $color-standart;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .params {
+    font-family: $fontGillSansLight;
+    font-size: $font-size-small;
+    color: $color-standart;
+
+    span:first-child {
+      margin-right: 15px;
+    }
+  }
+  .methods {
+    display: flex;
+    align-items: center;
+    font-family: $fontGillSansLight;
+    font-size: $font-size-standard;
+    color: $color-standart;
+    .edit {
+      margin-right: 15px;
+      text-decoration: underline;
+      position: relative;
+    }
+    .addToWish {
+      padding-top: 3px;
+    }
+    select {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      font-family: $fontGillSansLight;
+      font-size: $font-size-standard;
+      color: $color-standart;
+    }
+  }
+  .remove {
+    width: 30px;
+    height: 30px;
+    background-image: url(/fronts_mobile/img/icons/plusIconBlack.svg);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 0;
+    margin-left: auto;
+    transform: rotate(45deg);
+
+    &:active {
+      background-size: 20px;
+    }
+  }
+}
+
+.orderSummary{
+
+
+  & > div {
+    padding: 20px 15px;
+    background: $image-gold-header-bg;
+    background-size: 100%;
+    background-repeat: repeat-y;
+    box-shadow: 0 3px 2px 0 #95908B;
+
+    &:last-child {
+      margin-top: 40px;
+    }
+  }
+  .title {
+    font-family: $fontGillSansLight;
+    font-size: $font-size-medium;
+    color: $color-caramiziu;
+    letter-spacing: 0;
+    text-transform: uppercase;
+  }
+  span, label, button, p, a {
+    font-family: $fontGillSansLight;
+    font-size: $font-size-label;
+    color: $color-standart;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  label {
+    line-height: 1;
+  }
+  .bloc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &.last  {
+
+      .title {
+        text-transform: none;
+        font-family: $fontGillSansRegular;
+      }
+      span {
+        font-family: $fontGillSansRegular;
+      }
+    }
+  }
+  input, .selectContainer {
+    width: 70%;
+  }
+  .promoCode {
+    margin: 10px 0;
+
+    button {
+      background-image: $image-button-main;
+      background-size: 100% 100%;
+      height: 30px;
+      border: 0;
+      width: 35%;
+      text-transform: uppercase;
+      color: $color-caramiziu;
+
+      &:active {
+        font-size: $font-size-small;
+      }
+    }
+    .error {
+      display: none;
+    }
+  }
+  .total span {
+    font-family: $fontGillSansLight;
+    font-size: $font-size-standard;
+    color: $color-standart;
+    letter-spacing: 0;
+    line-height: 40px;
+  }
+  .last span {
+    font-family: $fontGillSansLight;
+    font-size: $font-size-medium;
+    color: $color-standart;
+    letter-spacing: 0;
+    text-align: right;
+    line-height: 2;
+  }
+  button.onSubmit {
+    background-image: $image-button-gold;
+    background-size: 100% 100%;
+    font-family: $fontGillSansLight;
+    font-size: $font-size-standard;
+    color: $color-standart;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color-caramiziu;
+    width: 100%;
+    height: 58px;
+    line-height: 58px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    margin-top: 5px;
+
+    &:active {
+      font-size: $font-size-small;
+    }
+  }
+  p {
+    font-size: $font-size-standard;
+  }
+  a {
+    text-decoration: underline;
+    font-size: $font-size-standard;
+  }
+}
+
+.selectContainer {
+  position: relative;
+  width: 100%;
+  border: 1px solid $color-standart;
+  margin: 5px 0;
+
+  select {
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    font-family: $fontGillSansLight, Georgia, 'Times New Roman', Times, serif;
+    font-size: $font-size-small;
+    color: $color-standart;
+    letter-spacing: 0;
+    line-height: 30px;
+    height: 30px;
+    padding-left: 15px;
+    width: 100%;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+  span {
+    position: absolute;
+    right: 15px;
+  }
+}
+
+input, textarea {
+  font-family: $fontGillSansLight, Georgia, 'Times New Roman', Times, serif;
+  background: none;
+  outline: 0;
+  font-size: $font-size-standard;
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid $color-standart;
+  width: 100%;
+  padding-left: 15px;
+}
+
+.stepContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+  display: none;
+
+  .step {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-image: $image-button-main;
+    background-size: cover;
+    background-position: 100%;
+    transform: rotate(45deg);
+  }
+  .step.opac {
+    opacity: .5;
+
+    .cat {
+      display: none;
+    }
+  }
+  span {
+    font-family: $fontGillSansLight;
+    font-size: $font-size-standard;
+    color: $color-standart;
+    display: block;
+    transform: rotate(-45deg);
+    text-align: center;
+    line-height: 40px;
+  }
+  .cat {
+    background-image: url(/fronts_mobile/img/icons/cat.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100%;
+    width: 70px;
+    height: 87px;
+    position: absolute;
+    right: -32px;
+    top: -40px;
+    transform: rotate(-35deg);
+  }
+  .arrow {
+    background-image: url(/fronts_mobile/img/icons/largeArrow.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 15%;
+    height: 16px;
+    margin: 0 20px;
+    margin-top: 7px;
+  }
+}
+
+.shippingInformation {
+
+  .subTitle {
+    font-family: $fontGillSansLight;
+    font-size: $font-size-standard;
+    color: $color-standart;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    border-bottom: 1px solid #979797;
+    line-height: 1.2;
+    margin-bottom: 30px;
+  }
+  input {
+    height: 44px;
+    line-height: 44px;
+    margin-bottom: 20px;
+  }
+  label {
+    line-height: 1;
+  }
+  .shippingBloc {
+    margin-bottom: 40px;
+  }
+  .butt {
+    height: 44px;
+    line-height: 44px;
+    width: 225px;
+    font-family: $fontGillSansLight;
+    font-size: $font-size-standard;
+    color: $color-caramiziu;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 3px;
+    margin-top: 10px;
+  }
+  .paymentMethod {
+    display: flex;
+    align-items: center;
+    outline: 1px solid $color-standart;
+    padding: 15px;
+    height: 100%;
+    width: 100%;
+
+
+    div:last-child {
+      display: flex;
+      align-items: center;
+    }
+
+    .checkMethod {
+      width: 30px;
+      height: 30px;
+      border-radius: 50px;
+      border: 1px solid $color-standart;
+      position: relative;
+      margin-right: 15px;
+
+      &:after {
+        content: "";
+        position: absolute;
+        width: calc(100% - 10px);
+        height: calc(100% - 10px);
+        background: $color-standart;
+        display: none;
+        top: 5px;
+        left: 5px;
+        border-radius: 50%;
+      }
+    }
+
+    &.selected .checkMethod{
+
+      &:after {
+        display: block;
+      }
+    }
+    svg, img {
+      height: 20px;
+      width: auto;
+    }
+    p {
+      font-family: $fontGillSansLight;
+      font-size: $font-size-standard;
+      color: $color-standart;
+      letter-spacing: 0;
+      text-align: left;
+    }
+    span {
+      font-family: $fontGillSansLight;
+      font-size: $font-size-small;
+      color: rgba(66,38,29,0.50);
+      letter-spacing: 0;
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+
+      img.master {
+        height: 30px;
+        margin-left: 10px;
+      }
+      img.paypalnew {
+        height: 25px;
+      }
+    }
+    span img {
+      display: inline;
+    }
+  }
+  .paymentMethodContainer {
+    .checkContainer {
+      font-family: $fontGillSansLight;
+      font-size: $font-size-small;
+      color: $color-standart;
+      letter-spacing: 0;
+      margin-left: 15px;
+      margin-top: 20px;
+      .check {
+        transform: rotate(45deg);
+        border: 1px solid #500504;
+      }
+    }
+    &>div {
+      // padding: 3px;
+      margin-bottom: 15px;
+
+      &:first-child {
+        padding-left: 15px;
+      }
+      &:nth-child(3) {
+        padding-right: 15px;
+      }
+    }
+  }
+}
+
+.titleCeck {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  p {
+    font-family: $fontGillSansLight;
+    font-size: $font-size-standard;
+    color: $color-standart;
+    letter-spacing: 0;
+    text-transform: uppercase;
+  }
+  span {
+    font-family: $fontGillSansLight;
+    font-size: $font-size-small;
+    color: #4C493F;
+    letter-spacing: 0;
+  }
+}
+
+.info {
+  margin-top: 60px;
+  padding-left: 15px;
+
+  p.title {
+    font-family: $fontGillSansLight;
+    font-size: $font-size-medium;
+    color: $color-standart;
+  }
+  .paymentMethods {
+
+    li {
+      margin-right: 30px;
+    }
+  }
+  ul {
+    display: flex;
+    align-items: center;
+  }
+  .infoBloc {
+    margin-bottom: 30px;
+  }
+}

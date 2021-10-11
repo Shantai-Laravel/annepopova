@@ -1,0 +1,39 @@
+{
+    "name": "edujugon/laravel-google-ads",
+    "description": "Google Adwords API for Laravel",
+    "keywords": ["google","adwords","ads","laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eduardo Marcos",
+            "email": "edujugon@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^5.1||^6.0||^7.0",
+        "illuminate/console": "^5.1||^6.0||^7.0",
+        "googleads/googleads-php-lib": ">=37.0"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "Edujugon\\GoogleAds\\": "src/"
+      },
+      "files": [
+          "src/Support/helpers.php"
+      ]
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Edujugon\\GoogleAds\\Providers\\GoogleAdsServiceProvider"
+        ],
+        "aliases": {
+          "GoogleAds": "Edujugon\\GoogleAds\\Facades\\GoogleAds"
+        }
+      }
+    },
+    "minimum-stability": "dev"
+}

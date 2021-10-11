@@ -1,0 +1,99 @@
+$color-standart: #42261D;
+$color-caramiziu: #B22D00;
+$color-olive: #5C591A;
+
+// backgrounds APL
+
+$fonBody: #fffcf5;          /* Green old: backgroud alb       HP background sub sliders Categorii */
+$fonAbout: #fffcf5;         /* DARK OLIVE DE ADAUGAT: HP background sub section 4 advantages (sub main Slider) si about Us section */
+$pink-bg: #eddcd5;          /*1. Primul topbar APL
+					                    2. Filters Section	*/
+$topbar-nav-category-bg: #eddcd5; /* topbar 2 */
+$image-pink-bg: #fffcf5;    /*1. APL Background la submeniu in topbar
+                     					2. Pages background: Cat-one-main-section
+                     														   Promo-all-Page
+                     															 Outlet-main-section
+                     															 Prod-one-main-section
+                     															 Collection-one-seturi-impare
+                     															 Favorites-all-Page */
+$collection-page-seturi-impare-background: #f1e9e6;
+$collection-page-seturi-pare-background: #f3ece2;
+$image-gold-bg-apl: #fffcf5;                     /* 1. Pages background: Prod-one-similar-and-recently-viewed-prods
+//																			              Outlet-recently-viewed-prods
+//																			              Cabinet-summary-menu */
+
+// backgrounds APJ
+$image-gold-header-bg-apj: #fff1d7; /* APJ footer and header */
+$image-silver-bg: #fffcf5;         /*	1. APJ Background la submeniu in topbar
+															        2. Pages background: Collection-one-seturi-pare
+															           Cart-Checkout-Pages-all-Page
+																			   Cabinet-main-page-section*/
+$collection-page-seturi-impare-background-apj: #f1e9e6;
+$collection-page-seturi-pare-background-apj: #f3ece2;
+
+$image-gold-bg: #fffcf5;          /* 1. Pages background: Prod-one-similar-and-recently-viewed-prods
+																			  Outlet-recently-viewed-prods
+																			  Cabinet-summary-menu */
+$fonBody-apj: #fffcf5;          /* Green old: backgroud alb       HP background sub sliders Categorii */
+$fonAbout-apj: #fffcf5;         /* DARK OLIVE DE ADAUGAT: HP background sub section 4 advantages (sub main Slider) si about Us section */
+
+
+$image-button-home: url("/fronts/img/backgrounds/buttons.jpg"); /* collection buttons HP,
+                                                                    add to cart and wish one product page,
+                                                                    add to cart collection page,
+                                                                    modal form button submit,
+                                                                    404 page button,
+                                                                    thank you page button,
+                                                                    bijoux button topbar1,
+                                                                    promocode button,
+                                                                    order summary steps,
+                                                                    promocodes page discount */
+
+$image-addToCart-clientArea: url("/fronts/img/backgrounds/cartClient.jpg"); // add to cart button client area cart page
+
+$image-button-gold: url("/fronts/img/backgrounds/onSubmit.jpg") ; // submit button cart page, close button filter, client area main button
+
+$modal-filter-bg: #fee8c9;						/*ORAQNGE  Popups background: Country-lang-selection
+											  Registration-login-when-clicking-on-cabinet-icon
+											  Registration-login-when-making-order
+											  Filter */
+
+// fonts
+
+$fontGillSansLight: "GillSans-Light";
+$fontGillSansRegular: "GillSans";
+$cormorant: "Cormorant SC";
+$north: "NorthWellAlt";
+
+// order-stats
+
+$delivered: #8D8F53;
+$indelivering: #2D456E;
+$notRespond: #D44016;
+
+
+
+// font-sizes
+
+$font-size-small: 14px;  // Topbar 3, titles la coloane din footer
+$font-size-big: 30px; //  Titles pe pagini, Titles Collections
+
+$font-size-home-collection-title: 70px; // Cats pe HP, titles about section HP
+$font-size-home-collection-descr: 24px; // Cats HP description, text about section HP
+$font-size-home-button-collection: 24px; // Collection buttons HP, form button submit
+$font-size-product-name: 40px; // product name one product page
+$font-size-product-bloc-name: 18px; // product name one product bloc
+$font-size-modal-titles: 18px; // modal titles and line height
+$font-size-button-client-area: 18px;
+$font-size-title-page-client-area: 40px;
+$font-size-nav-client-area: 24px; // nav client area, personal data text medium, order history page text
+$font-size-text-client-area: 18px; // client area text
+$font-size-hint-text: 14px; // size guide product one, forget password hint
+
+$font-size-label: 16px; /* contact page from,
+                            order summary label,
+                            modal labels,
+                            input modal,
+                            inputs and textarea */
+
+$font-size-standart: 20px;

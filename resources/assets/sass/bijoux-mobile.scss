@@ -1,0 +1,473 @@
+@import "./mobile_variables.scss";
+
+header.jewerly {
+  // background-image: url(/fronts_mobile/img/backgrounds/jrwHeader.jpg);
+  background: $image-gold-header-bg-apj;
+
+  .tabHeader {
+
+    #jewerlyButton.buttHeader svg {
+      display: none;
+    }
+    #loungewearButton {
+      background: none;
+      background: $pink-bg;
+    }
+  }
+  .burger {
+    background: $image-gold-header-bg-apj;
+  }
+  #navOpen {
+    a, li, p, span {
+      color: $color-olive !important;
+    }
+    .jrwNavAbout.navAbout {
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+    }
+    .lngNavAbout.navAbout {
+      display: none;
+    }
+  }
+  .networks {
+    li:hover {
+      background: none;
+      background-color: #F1C179;
+    }
+    #Shape, #Shape-Copy {
+      fill: $color-olive;
+    }
+  }
+  .nav {
+    * {
+      color: $color-olive !important;
+    }
+  }
+  .nav svg path:last-child {
+    fill: $color-olive;
+  }
+  .home {
+    background-image: url(/fronts_mobile/img/icons/homejrw.svg);
+  }
+}
+
+#burger {
+  &:after,
+  &:before {
+    background-color: $color-olive;
+  }
+  .iconBar {
+    background-color: $color-olive;
+  }
+}
+
+.homeContent {
+
+  .points {
+    background: $fonAbout-apj;
+  }
+  .points #Home_Page_375,
+  .points .item span,
+  .points a {
+    fill: $color-olive;
+    color: $color-olive;
+  }
+  .collection {
+    background-size: 100%;
+    &:nth-child(odd) {
+      background: $collection-page-seturi-impare-background-apj;
+      background-size: 100%;
+
+      .item {
+        h4, p {
+          color: $color-olive;
+        }
+      }
+    }
+
+    &:nth-child(even) {
+      background: $collection-page-seturi-pare-background-apj;
+      h4, p {
+        color: $color-olive;
+      }
+    }
+
+
+  }
+  .about {
+
+    background: $fonAbout-apj;
+    h3 {
+      color: $color-olive;
+    }
+    p {
+      color: $color-olive;
+    }
+
+    a {
+      span {
+        color: $color-olive;
+      }
+      li {
+        border: 2px solid $color-olive;
+      }
+    }
+  }
+}
+
+footer.footerJewerly {
+  // background: $image-gold-bg;
+  background: $image-gold-header-bg-apj;
+  background-size: 100%;
+
+  .networks {
+    li:hover {
+      background: none;
+      // background-color: #F1C179;
+    }
+    #Shape, #Shape-Copy {
+      fill: $color-olive;
+    }
+  }
+  .lngwLogo {
+    display: none;
+  }
+  a, li, p {
+    color: #5c591a;
+  }
+  li.footerButton {
+    background-image: url(/fronts_mobile/img/icons/plusIconGreen.svg);
+  }
+  li.footerButton.show {
+    background-image: url(/fronts_mobile/img/icons/minusIconGreen.svg);
+  }
+  .fonran {
+    background: $footer-apj-background-2;
+    background-size: 100%;
+  }
+}
+
+.oneProduct {
+
+  a {
+    color: $color-olive;
+  }
+  .price {
+    color: $color-olive;
+  }
+}
+.outlet, .promo, .wishContent {
+  background: $fonAbout-apj;
+}
+.promo .promoTitle,
+.promo h3 {
+  color: $color-olive
+}
+.outlet h3 {
+  color: $color-olive;
+}
+.additionalSlide .title {
+  color: $color-olive;
+}
+
+.promo {
+  .promoTitle {
+    padding: 0 30px;
+    position: relative;
+
+
+  }
+  .collection {
+    background-size: 100%;
+
+    &:nth-child(odd) {
+      background: $image-gold-bg;
+      background-size: 100%;
+
+      .item {
+        h4, p {
+          color: $color-olive;
+        }
+      }
+    }
+
+    &:nth-child(even) {
+      background: $image-silver-bg;
+      h4, p {
+        color: $color-olive;
+      }
+    }
+
+
+  }
+  .butt {
+    width: 220px;
+
+    svg {
+      margin-left: 10px;
+    }
+    .promoSwipe {
+      fill: #fff;
+    }
+    #Rectangle {
+      stroke: #fff;
+    }
+  }
+
+  h3 {
+    font-family: $fontGillSansLight;
+    font-size: 24px;
+    color: $color-standart;
+    letter-spacing: -.03px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.4;
+  }
+}
+
+
+.categoryContent {
+  background:  $fonAbout-apj;
+  background-size: 100%;
+  background-repeat: repeat;
+
+  .oneCateProd {
+    width: 100%;
+  }
+  h3 {
+    color: $color-olive;
+  }
+}
+
+.filterContainer {
+  background: $modal-filter-bg;
+  width: calc(100% - 30px);
+
+  #filterButton {
+    color: $color-olive;
+
+    span:first-child {
+      background-image: url(/fronts_mobile/img/icons/filterIconJrw.svg);
+    }
+    span:nth-child(2) {
+      background-image: url(/fronts_mobile/img/icons/plusIconGreen.svg);
+    }
+  }
+  .filterButton {
+    color: $color-olive;
+    background-image: url(/fronts_mobile/img/icons/plusIconGreen.svg);
+  }
+  .filterButton.active {
+    background-image: url(/fronts_mobile/img/icons/minusIconGreen.svg);
+  }
+  .checkContainer {
+    color: $color-olive;
+    .check {
+      border-color: $color-olive;
+    }
+  }
+  button:nth-child(1) {
+    background-image: url(/fronts_mobile/img/backgrounds/onSubmit.jpg);
+    color: $color-olive;
+  }
+  button:nth-child(2) {
+    background-image: url(/fronts_mobile/img/backgrounds/buttons.jpg);
+    color: $color-olive;
+  }
+}
+
+.oneProductContent {
+
+  .description {
+    background: $swipe-apj-bg;
+    background-size: 100%;
+  }
+  .productInner.oneProduct {
+
+    .box {
+      background-image: url(/fronts_mobile/img/icons/box.svg);
+    }
+    &:hover {
+      .price, a {
+        color: $color-standart;
+      }
+    }
+  }
+  .slick-dots button {
+    background-color: $color-olive;
+    transform: none;
+    border-radius: 50%;
+  }
+  .addToWishProduct svg #wishProduct {
+    fill: $color-olive;
+  }
+}
+
+.descriptionInner {
+
+  .name {
+    color: $color-olive;
+  }
+  .price {
+    color: $color-standart;
+
+    span {
+      color: $color-standart;
+    }
+  }
+  .sliderContainer {
+    .price {
+      color: $color-olive;
+    }
+  }
+}
+
+.collectionContent.collectionContent .description {
+
+  .name {
+    color: $color-olive;
+  }
+}
+
+.products {
+
+  .title {
+    color: $color-olive;
+  }
+  .nameProduct {
+    color: $color-olive;
+  }
+  .price {
+    color: $color-olive;
+  }
+  .buttonsSet {
+
+    .cartButton span,
+    .wishButton span {
+      color: #fff;
+    }
+    .cartButton #Shape,
+    .wishButton #Shape {
+      fill: #fff;
+    }
+    .cartButton span,
+    .wishButton span {
+      color: $color-olive;
+    }
+    .cartButton #Shape,
+    .wishButton #Shape {
+      fill: $color-olive;
+    }
+    .wishButton {
+      background-image: url(/fronts_mobile/img/backgrounds/onSubmit.jpg);
+      background-size: 500%;
+      background-position: 100% center;
+    }
+  }
+}
+
+.closeInner {
+  background-image: url(/fronts_mobile/img/icons/plusIconGreen.svg);
+}
+
+.moreDetails {
+
+  .title {
+    color: $color-olive;
+    background-image: url(/fronts_mobile/img/icons/plusIconGreen.svg);
+  }
+  .title.minus {
+    background-image: url(/fronts_mobile/img/icons/minusIconGreen.svg);
+  }
+  li:before {
+    background-color: $color-olive;
+  }
+}
+
+.sizeButtonBox {
+  background-image: url(/fronts_mobile/img/backgrounds/buttons.jpg);
+  background-size: 100% 100%;
+}
+
+.sizeButton {
+  background-image: url(/fronts_mobile/img/icons/cartPlusOlive.svg);
+}
+
+.sizeButton.sizeChecked,
+.addToWishProduct.addedToWish {
+
+  &:after {
+    border-color: $color-olive;
+  }
+}
+
+.sliderContainer h3 {
+  color: $color-olive;
+}
+
+.sizeContainerProduct {
+  position: absolute;
+  bottom: -100%;
+  width: 100vw;
+  z-index: 5;
+  background-image: url(/fronts_mobile/img/icons/sizeBack.jpg);
+  background-size: cover;
+  transition: bottom .5s ease;
+
+  .head {
+    background: $image-silver-bg;
+    background-size: 100%;
+
+    p {
+      color: $color-olive;
+
+      &:last-child {
+        background-image: url(/fronts_mobile/img/icons/ruler.svg);
+      }
+    }
+  }
+  .sizeCheck {
+    color: $color-olive;
+    .check {
+      color: $color-olive;
+      border: 1px solid $colorSize;
+      background-color: $pink-bg;
+    }
+    .count {
+      color: $color-olive;
+    }
+    input:disabled ~ .check,
+    input:disabled ~ .check .count {
+      color: rgba($color: $color-olive, $alpha: 0.4);
+    }
+    input:checked ~ .check {
+      background: $image-silver-bg;
+      background-size: 100%;
+      color: $color-olive;
+    }
+  }
+
+}
+
+.modal {
+
+  #codSelected {
+    background: $fonBody-apj;
+  }
+}
+
+.clientArea, .cartClass, .oneProductContent {
+  background: $fonBody-apj;
+}
+
+.oneProductContent .description {
+  background: $fonBody-apj;
+}
+
+.selSize .check,
+.modal .modalContent,
+.sizeContainerProduct .sizeCheck .check,
+.navArea {
+  background: $modal-filter-bg-apj !important;
+}

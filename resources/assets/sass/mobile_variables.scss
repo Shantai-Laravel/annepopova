@@ -1,0 +1,102 @@
+
+$headerHeight: 53px;
+$colorSize: #85736B;
+
+// color font
+
+$color-standart: #42261D;
+$color-caramiziu: #B22D00;
+$color-olive: #5C591A;
+
+//APL header, footer, burgher, background-colors pages and sections
+$pink-bg: #eddcd5; /* Roz    APL Topbar1, Topbar2, Burgher-opened-background*/
+$footer-apl-background-2: #eddcd5; /* Roz footer-2-section backgroud APL */
+$burger-apl-bg: #eddcd5; /* Roz APL Burger Icon background*/
+
+$fonLight: #04FBF4; /*LIGHT BLUE*/
+$fonBody: #fffcf5;  /*  phone container (select), Main-background for: APL prod-one, collection-one */
+$fonAbout: #fffcf5;         /*Molochnii APL/APJ: HP background sub section 4 advantages (sub main Slider) si about Us section */
+
+$swipe-apl-bg: #fffcf5;  /*APL Swipe section bg:prod-one, collection-one */
+$swipe-apl-buttons-inside: #eddcd5;  /* buttons from swipe */
+
+$modal-filter-bg: #f7eee7; /*Popups, Filter background - var3, 3rd section*/
+
+$collection-page-seturi-impare-background: #f1e9e6; /*APL HP-sliders-collections-background - var-3, 1st section*/
+$collection-page-seturi-pare-background: #f3ece2;   /*APL HP-sliders-categories-background var-3, 2nd section*/
+
+
+//APJ header, footer, burgher, background-colors pages and sections
+$image-gold-header-bg-apj: #fff1d7; /* Persic LIGHT VIOLET  APJ Topbar1, Topbar2, Burgher-opened-background */
+$footer-apj-background-2: #fff1d7;  /* Persic footer-2-section backgroud APJ */
+$burger-apj-bg: #fff1d7;   /* Persic APJ Burger Icon background*/
+
+$swipe-apj-bg: #fff1d7;  /*RED APJ Swipe section bg:prod-one, collection-one*/
+
+$fonBody-apj: #fffcf5;  /*  phone container (select), Main-background for: APJ prod-one, collection-one */
+$fonAbout-apj: #fffcf5;         /*Molochnii APL/APJ: HP background sub section 4 advantages (sub main Slider) si about Us section */
+
+$modal-filter-bg-apj: #f7eee7; /*Popups, Filter background - var3, 3rd section*/
+
+$collection-page-seturi-impare-background-apj: #f1e9e6; /*APJ HP-sliders-collections-background - var-3, 1st section*/
+$collection-page-seturi-pare-background-apj: #f3ece2;   /*APJ HP-sliders-categories-background var-3, 2nd section*/
+
+$image-silver-bg: url("/fronts_mobile/img/about/one2.jpg");
+$image-gold-bg: url("/fronts_mobile/img/backgrounds/goldCollectionL.jpg");
+$image-gold-header-bg: url("/fronts_mobile/backgrounds/footerJewerly.jpg");
+
+$image-button-home: url("/fronts_mobile/img/backgrounds/buttBrown.jpg"); /* collection buttons HP */
+
+$image-button-main: url("/fronts_mobile/img/backgrounds/buttons.jpg"); /* add to cart and wish one product page,
+                          add to cart collection page,
+                          modal form button submit,
+                          404 page button,
+                          thank you page button,
+                          bijoux button topbar1,
+                          promocode button,
+                          order summary steps,
+                          promocodes page discount */
+
+$image-addToCart-clientArea: url("/fronts/img/backgrounds/cartClient.jpg"); // add to cart button client area cart page
+
+$image-button-gold: url("/fronts_mobile/img/backgrounds/onSubmit.jpg"); // submit button cart page, close button filter, client area main button, add to wish category page
+
+
+
+// fonts
+
+$futura: "GillSans-Light";
+
+$fontGillSansLight: "GillSans-Light";
+$fontGillSansRegular: "GillSans";
+$cormorant: "Cormorant SC";
+$north: "NorthWellAlt";
+
+// order-stats
+
+$delivered: #8D8F53;
+$indelivering: #2D456E;
+$notRespond: #D44016;
+
+// font-sizes
+$font-size-small: 16px; // footer text
+$font-size-big: 30px; //  Titles pe pagini, Titles Collections, about page titles
+
+$font-size-home-collection-title: 30px; // Cats pe HP, titles about section HP
+$font-size-home-button-collection: 20px; // Collection buttons HP
+$font-size-product-bloc-name: 18px; // product name one product bloc
+$font-size-modal-titles: 18px; // modal titles and line height
+$font-size-button-client-area: 18px;
+$font-size-text-client-area: 18px; // client area text
+
+$font-size-label: 16px; /* contact page from,
+                            order summary label, input, a, p,
+                            modal labels,
+                            input modal,
+                            inputs and textarea */
+
+$font-size-large: 50px;
+
+$font-size-medium: 24px;
+
+$font-size-standard: 20px; // font-size standard

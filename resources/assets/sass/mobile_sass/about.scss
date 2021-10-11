@@ -1,0 +1,514 @@
+.aboutContent {
+  padding-top: 93px;
+
+  h3 {
+    font-family: $fontGillSansLight;
+    font-size: $font-size-big;
+    color: $color-caramiziu;
+    letter-spacing: -0.03px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  section {
+    padding: 50px 0;
+  }
+  a {
+    position: relative;
+
+    &:hover ul li {
+      margin-right: -100px;
+    }
+    &:hover ul li:first-child {
+      width: 100%;
+    }
+    span {
+      font-family: $fontGillSansLight;
+      font-size: $font-size-medium;
+      color: $color-caramiziu;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    ul {
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      width: 100%;
+      padding-right: 5px;
+      overflow: hidden;
+    }
+    li {
+      border: 2px solid $color-standart;
+      border-radius: 50%;
+      transition: all .3s ease;
+
+      &:first-child {
+        width: 70%;
+        border-radius: 3px;
+        transition-delay: .2s;
+      }
+    }
+  }
+  .cont {
+    position: relative;
+  }
+  p {
+    font-family: $fontGillSansLight;
+    font-size: $font-size-standard;
+    color: $color-standart;
+    letter-spacing: 0.08px;
+    line-height: 24px;
+  }
+
+  section:nth-child(1) {
+    padding: 0;
+  }
+  section:nth-child(2) {
+    padding-top: 0;
+    .container {
+      padding: 0;
+    }
+    .tranText {
+      font-family: $north;
+      font-size: $font-size-big;
+      color: $color-caramiziu;
+      letter-spacing: 3.17px;
+      line-height: 1;
+      text-align: left;
+      padding-left: 40px;
+      transform: rotateZ(-10deg);
+      position: relative;
+      right: 20px;
+      top: 47px;
+      z-index: 3;
+
+      span:first-child {
+        color: $color-olive
+      }
+    }
+    .img2 {
+      display: block;
+      margin-right: 0;
+      margin-left: auto;
+      width: 65vw;
+    }
+    .img1 {
+      position: absolute;
+      width: 45vw;
+      left: 0;
+      top: 35%;
+    }
+    .colorRed {
+      font-family: $fontGillSansLight;
+      font-size: $font-size-big;
+      color: $color-olive;
+      letter-spacing: 0.13px;
+      line-height: 30px;
+      margin-top: 30px;
+    }
+    p {
+      margin-top: 20px;
+    }
+    .row {
+      margin: 0;
+    }
+  }
+  section:nth-child(3) {
+    background: $pink-bg;
+    padding-top: 0;
+    margin-top: 50px;
+
+    .block1 {
+      padding-bottom: 50px;
+      position: relative;
+      top: -50px;
+
+      img {
+        display: block;
+        width: 65%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+      p {
+        font-family: $fontGillSansLight;
+        font-size: $font-size-big;
+        color: $color-standart;
+        letter-spacing: 0.13px;
+        line-height: 30px;
+        margin-top: 30px;
+      }
+    }
+    .imgContainer {
+      position: relative;
+      margin-left: -15px;
+
+      .tranText {
+        font-family: $north;
+        font-size: $font-size-big;
+        color: $color-caramiziu;
+        letter-spacing: 3.17px;
+        line-height: 1;
+        position: absolute;
+        right: -15px;
+        top: -30px;
+        z-index: 3;
+      }
+    }
+    .block2 p {
+      font-family: $fontGillSansLight;
+      font-size: $font-size-standard;
+      color: $color-standart;
+      letter-spacing: 0.08px;
+      line-height: 24px;
+      margin-top: 30px;
+    }
+  }
+  section:nth-child(4) {
+    background: $image-silver-bg;
+    background-size: 100%;
+    background-repeat: repeat;
+    p.dens {
+      font-family: $fontGillSansLight;
+      font-size: $font-size-standard;
+      color: $color-standart;
+      letter-spacing: 0.13px;
+      line-height: 30px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-family: $fontGillSansLight;
+      font-size: $font-size-standard;
+      color: $color-standart;
+      letter-spacing: 0.08px;
+      line-height: 24px;
+    }
+    img {
+      margin-top: 30px;
+    }
+  }
+  section:nth-child(5) {
+    background: $image-silver-bg, $image-gold-bg;
+    background-size: 100% 37%, 100%;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+
+    h4 {
+      font-family: $fontGillSansLight;
+      font-size: $font-size-big;
+      color: $color-olive;
+      letter-spacing: 0.13px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .imgContainer {
+      position: relative;
+      margin-bottom: 30px;
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+    .scaleOut {
+      width: 50%;
+      margin: auto;
+    }
+    #top2 {
+      display: block;
+      position: absolute;
+      top: 40%;
+      width: 30%;
+      left: 0;
+    }
+    #bottom {
+      display: block;
+      position: absolute;
+      top: 25%;
+      right: 0;
+      width: 30%;
+    }
+    .subtext {
+      font-family: $fontGillSansLight;
+      font-size: $font-size-big;
+      color: $color-standart;
+      letter-spacing: 0.13px;
+      line-height: 30px;
+      margin-top: 40px;
+      margin-bottom: 30px;
+    }
+    a span {
+      color: $color-olive;
+    }
+  }
+
+  section:nth-child(6) {
+    h4 {
+      font-family: $fontGillSansLight;
+      font-size: $font-size-big;
+      color: $color-standart;
+      letter-spacing: 0.13px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .imgContainer {
+      position: relative;
+      margin-bottom: 30px;
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+    .scaleOut {
+      width: 50%;
+      margin: auto;
+    }
+    #top3 {
+      display: block;
+      position: absolute;
+      top: 40%;
+      width: 30%;
+      left: 0;
+    }
+    #bottom2 {
+      display: block;
+      position: absolute;
+      top: 25%;
+      right: 0;
+      width: 30%;
+    }
+    .welcome {
+      margin-top: 30px;
+    }
+  }
+}
+
+.contactContent {
+
+  .contactBanner {
+    position: relative;
+    height: 500px;
+
+    img {
+      object-fit: cover;
+      object-position: center;
+      width: 100%;
+      height: 100%;
+    }
+    .test {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .container {
+      height: 100%;
+    }
+    .innerTest {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100%;
+    }
+    h3 {
+      font-size: 30px;
+    }
+    p {
+      line-height: 1.5;
+    }
+    h3, p {
+      margin: 30px 0;
+      color: #fff;
+      text-align: center;
+      font-family: $fontGillSansLight;
+
+    }
+  }
+  .item {
+    margin-bottom: 30px;
+  }
+  h5 {
+    font-size: $font-size-big;
+    margin-bottom: 20px;
+    font-family: $fontGillSansRegular;
+    color: $color-standart;
+  }
+  .title {
+    font-family: $cormorant;
+    font-size: $font-size-standard;
+    color: $color-standart;
+    line-height: 1.3;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  P, a, li, .country {
+    font-family: $fontGillSansLight;
+    font-size: $font-size-standard;
+    color: $color-standart;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+
+  .g-recaptcha {
+    margin-top: 20px;
+
+
+    &>div {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .country {
+    font-size: 25px;
+    margin: 20px 0;
+  }
+  .bloc {
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 30px;
+
+    &>p a:first-child {
+      margin-right: 15px;
+    }
+  }
+  .bloc img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+  }
+  a.contButt {
+    position: relative;
+    top: 20px;
+    font-family: $fontGillSansLight;
+    font-size: $font-size-standard;
+    color: $color-standart;
+    padding: 10px;
+    border: 1px solid $color-standart;
+  }
+  span {
+    display: block;
+  }
+  svg {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 15px;
+  }
+  a.facebook svg {
+    width: 10px;
+  }
+  .formcontact {
+    padding: 30px 0;
+    .imageContainer{
+      padding-left: 0;
+    }
+  }
+  form {
+    max-width: 440px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+
+    h3 {
+      line-height: 2;
+      margin-bottom: 20px;
+    }
+    input {
+      line-height: 40px;
+      height: 40px;
+      margin-bottom: 20px;
+    }
+    textarea {
+      height: 100px;
+    }
+    p {
+      margin-bottom: 30px;
+      font-family: $fontGillSansLight;
+      font-size: $font-size-standard;
+      color: $color-standart;
+    }
+    label {
+      line-height: 1;
+      font-family: $fontGillSansLight;
+      font-size: $font-size-label;
+      color: $color-standart;
+      letter-spacing: 0;
+    }
+    .butt {
+      width: 100%;
+
+      span {
+        display: inline;
+      }
+    }
+  }
+  .welcome {
+    width: 90vw;
+    max-width: 790px;
+    margin: auto;
+  }
+  section:last-child {
+    padding: 10px 0;
+  }
+  .butt {
+    background: #C39A7A;
+    background-image: $image-button-main;
+    background-size: 100% 100%;
+    margin-top: 30px;
+    border: 1px solid #FFFFFF;
+    display: block;
+    width: 440px;
+    text-align: center;
+    padding-top: 6px;
+    overflow: hidden;
+    font-size: $font-size-standard;
+
+
+    span {
+      font-family: $fontGillSansLight, Georgia, 'Times New Roman', Times, serif;
+      font-size: $font-size-standard;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      text-align: center;
+      text-transform: uppercase;
+      position: relative;
+      vertical-align: bottom;
+      padding-right: 49px;
+      transition: padding .3s ease-out;
+      line-height: 40px;
+      height: 40px;
+    }
+    b {
+      border: 3px solid #fff;
+      line-height: 0px;
+      font-size: 0;
+      border-radius: 50%;
+      display: inline;
+      position: absolute;
+      right: 0;
+      top: calc(50% - 5px);
+      opacity: 1;
+      transition: right .3s ease-out;
+    }
+    b:nth-child(1) {
+      right: 0px;
+    }
+    b:nth-child(2) {
+      right: 15px;
+    }
+    b:nth-child(3) {
+      right: 30px;
+    }
+    &:hover b:nth-child(1) {
+      right: 0px;
+    }
+    &:hover b:nth-child(2) {
+      right: 0;
+    }
+    &:hover b:nth-child(3) {
+      right: 0;
+    }
+    &:hover span {
+      padding-right: 15px;
+    }
+  }
+}
