@@ -1,0 +1,542 @@
+/* Roz    APL Topbar1, Topbar2, Burgher-opened-background*/
+
+/* Roz footer-2-section backgroud APL */
+
+/* Roz APL Burger Icon background*/
+
+/*LIGHT BLUE*/
+
+/*  phone container (select), Main-background for: APL prod-one, collection-one */
+
+/*Molochnii APL/APJ: HP background sub section 4 advantages (sub main Slider) si about Us section */
+
+/*APL Swipe section bg:prod-one, collection-one */
+
+/* buttons from swipe */
+
+/*Popups, Filter background - var3, 3rd section*/
+
+/*APL HP-sliders-collections-background - var-3, 1st section*/
+
+/*APL HP-sliders-categories-background var-3, 2nd section*/
+
+/* Persic LIGHT VIOLET  APJ Topbar1, Topbar2, Burgher-opened-background */
+
+/* Persic footer-2-section backgroud APJ */
+
+/* Persic APJ Burger Icon background*/
+
+/*RED APJ Swipe section bg:prod-one, collection-one*/
+
+/*  phone container (select), Main-background for: APJ prod-one, collection-one */
+
+/*Molochnii APL/APJ: HP background sub section 4 advantages (sub main Slider) si about Us section */
+
+/*Popups, Filter background - var3, 3rd section*/
+
+/*APJ HP-sliders-collections-background - var-3, 1st section*/
+
+/*APJ HP-sliders-categories-background var-3, 2nd section*/
+
+/* collection buttons HP */
+
+/* add to cart and wish one product page,
+                          add to cart collection page,
+                          modal form button submit,
+                          404 page button,
+                          thank you page button,
+                          bijoux button topbar1,
+                          promocode button,
+                          order summary steps,
+                          promocodes page discount */
+
+/* contact page from,
+                            order summary label, input, a, p,
+                            modal labels,
+                            input modal,
+                            inputs and textarea */
+
+header.jewerly {
+  background: #fff1d7;
+}
+
+header.jewerly .tabHeader #jewerlyButton.buttHeader svg {
+  display: none;
+}
+
+header.jewerly .tabHeader #loungewearButton {
+  background: none;
+  background: #eddcd5;
+}
+
+header.jewerly .burger {
+  background: #fff1d7;
+}
+
+header.jewerly #navOpen a,
+header.jewerly #navOpen li,
+header.jewerly #navOpen p,
+header.jewerly #navOpen span {
+  color: #5C591A !important;
+}
+
+header.jewerly #navOpen .jrwNavAbout.navAbout {
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header.jewerly #navOpen .lngNavAbout.navAbout {
+  display: none;
+}
+
+header.jewerly .networks li:hover {
+  background: none;
+  background-color: #F1C179;
+}
+
+header.jewerly .networks #Shape,
+header.jewerly .networks #Shape-Copy {
+  fill: #5C591A;
+}
+
+header.jewerly .nav * {
+  color: #5C591A !important;
+}
+
+header.jewerly .nav svg path:last-child {
+  fill: #5C591A;
+}
+
+header.jewerly .home {
+  background-image: url(/fronts_mobile/img/icons/homejrw.svg);
+}
+
+#burger:after,
+#burger:before {
+  background-color: #5C591A;
+}
+
+#burger .iconBar {
+  background-color: #5C591A;
+}
+
+.homeContent .points {
+  background: #fffcf5;
+}
+
+.homeContent .points #Home_Page_375,
+.homeContent .points .item span,
+.homeContent .points a {
+  fill: #5C591A;
+  color: #5C591A;
+}
+
+.homeContent .collection {
+  background-size: 100%;
+}
+
+.homeContent .collection:nth-child(odd) {
+  background: #f1e9e6;
+  background-size: 100%;
+}
+
+.homeContent .collection:nth-child(odd) .item h4,
+.homeContent .collection:nth-child(odd) .item p {
+  color: #5C591A;
+}
+
+.homeContent .collection:nth-child(even) {
+  background: #f3ece2;
+}
+
+.homeContent .collection:nth-child(even) h4,
+.homeContent .collection:nth-child(even) p {
+  color: #5C591A;
+}
+
+.homeContent .about {
+  background: #fffcf5;
+}
+
+.homeContent .about h3 {
+  color: #5C591A;
+}
+
+.homeContent .about p {
+  color: #5C591A;
+}
+
+.homeContent .about a span {
+  color: #5C591A;
+}
+
+.homeContent .about a li {
+  border: 2px solid #5C591A;
+}
+
+footer.footerJewerly {
+  background: #fff1d7;
+  background-size: 100%;
+}
+
+footer.footerJewerly .networks li:hover {
+  background: none;
+}
+
+footer.footerJewerly .networks #Shape,
+footer.footerJewerly .networks #Shape-Copy {
+  fill: #5C591A;
+}
+
+footer.footerJewerly .lngwLogo {
+  display: none;
+}
+
+footer.footerJewerly a,
+footer.footerJewerly li,
+footer.footerJewerly p {
+  color: #5c591a;
+}
+
+footer.footerJewerly li.footerButton {
+  background-image: url(/fronts_mobile/img/icons/plusIconGreen.svg);
+}
+
+footer.footerJewerly li.footerButton.show {
+  background-image: url(/fronts_mobile/img/icons/minusIconGreen.svg);
+}
+
+footer.footerJewerly .fonran {
+  background: #fff1d7;
+  background-size: 100%;
+}
+
+.oneProduct a {
+  color: #5C591A;
+}
+
+.oneProduct .price {
+  color: #5C591A;
+}
+
+.outlet,
+.promo,
+.wishContent {
+  background: #fffcf5;
+}
+
+.promo .promoTitle,
+.promo h3 {
+  color: #5C591A;
+}
+
+.outlet h3 {
+  color: #5C591A;
+}
+
+.additionalSlide .title {
+  color: #5C591A;
+}
+
+.promo .promoTitle {
+  padding: 0 30px;
+  position: relative;
+}
+
+.promo .collection {
+  background-size: 100%;
+}
+
+.promo .collection:nth-child(odd) {
+  background: url("/fronts_mobile/img/backgrounds/goldCollectionL.jpg");
+  background-size: 100%;
+}
+
+.promo .collection:nth-child(odd) .item h4,
+.promo .collection:nth-child(odd) .item p {
+  color: #5C591A;
+}
+
+.promo .collection:nth-child(even) {
+  background: url("/fronts_mobile/img/about/one2.jpg");
+}
+
+.promo .collection:nth-child(even) h4,
+.promo .collection:nth-child(even) p {
+  color: #5C591A;
+}
+
+.promo .butt {
+  width: 220px;
+}
+
+.promo .butt svg {
+  margin-left: 10px;
+}
+
+.promo .butt .promoSwipe {
+  fill: #fff;
+}
+
+.promo .butt #Rectangle {
+  stroke: #fff;
+}
+
+.promo h3 {
+  font-family: "GillSans-Light";
+  font-size: 24px;
+  color: #42261D;
+  letter-spacing: -.03px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+.categoryContent {
+  background: #fffcf5;
+  background-size: 100%;
+  background-repeat: repeat;
+}
+
+.categoryContent .oneCateProd {
+  width: 100%;
+}
+
+.categoryContent h3 {
+  color: #5C591A;
+}
+
+.filterContainer {
+  background: #f7eee7;
+  width: calc(100% - 30px);
+}
+
+.filterContainer #filterButton {
+  color: #5C591A;
+}
+
+.filterContainer #filterButton span:first-child {
+  background-image: url(/fronts_mobile/img/icons/filterIconJrw.svg);
+}
+
+.filterContainer #filterButton span:nth-child(2) {
+  background-image: url(/fronts_mobile/img/icons/plusIconGreen.svg);
+}
+
+.filterContainer .filterButton {
+  color: #5C591A;
+  background-image: url(/fronts_mobile/img/icons/plusIconGreen.svg);
+}
+
+.filterContainer .filterButton.active {
+  background-image: url(/fronts_mobile/img/icons/minusIconGreen.svg);
+}
+
+.filterContainer .checkContainer {
+  color: #5C591A;
+}
+
+.filterContainer .checkContainer .check {
+  border-color: #5C591A;
+}
+
+.filterContainer button:nth-child(1) {
+  background-image: url(/fronts_mobile/img/backgrounds/onSubmit.jpg);
+  color: #5C591A;
+}
+
+.filterContainer button:nth-child(2) {
+  background-image: url(/fronts_mobile/img/backgrounds/buttons.jpg);
+  color: #5C591A;
+}
+
+.oneProductContent .description {
+  background: #fff1d7;
+  background-size: 100%;
+}
+
+.oneProductContent .productInner.oneProduct .box {
+  background-image: url(/fronts_mobile/img/icons/box.svg);
+}
+
+.oneProductContent .productInner.oneProduct:hover .price,
+.oneProductContent .productInner.oneProduct:hover a {
+  color: #42261D;
+}
+
+.oneProductContent .slick-dots button {
+  background-color: #5C591A;
+  -webkit-transform: none;
+          transform: none;
+  border-radius: 50%;
+}
+
+.oneProductContent .addToWishProduct svg #wishProduct {
+  fill: #5C591A;
+}
+
+.descriptionInner .name {
+  color: #5C591A;
+}
+
+.descriptionInner .price {
+  color: #42261D;
+}
+
+.descriptionInner .price span {
+  color: #42261D;
+}
+
+.descriptionInner .sliderContainer .price {
+  color: #5C591A;
+}
+
+.collectionContent.collectionContent .description .name {
+  color: #5C591A;
+}
+
+.products .title {
+  color: #5C591A;
+}
+
+.products .nameProduct {
+  color: #5C591A;
+}
+
+.products .price {
+  color: #5C591A;
+}
+
+.products .buttonsSet .cartButton span,
+.products .buttonsSet .wishButton span {
+  color: #fff;
+}
+
+.products .buttonsSet .cartButton #Shape,
+.products .buttonsSet .wishButton #Shape {
+  fill: #fff;
+}
+
+.products .buttonsSet .cartButton span,
+.products .buttonsSet .wishButton span {
+  color: #5C591A;
+}
+
+.products .buttonsSet .cartButton #Shape,
+.products .buttonsSet .wishButton #Shape {
+  fill: #5C591A;
+}
+
+.products .buttonsSet .wishButton {
+  background-image: url(/fronts_mobile/img/backgrounds/onSubmit.jpg);
+  background-size: 500%;
+  background-position: 100% center;
+}
+
+.closeInner {
+  background-image: url(/fronts_mobile/img/icons/plusIconGreen.svg);
+}
+
+.moreDetails .title {
+  color: #5C591A;
+  background-image: url(/fronts_mobile/img/icons/plusIconGreen.svg);
+}
+
+.moreDetails .title.minus {
+  background-image: url(/fronts_mobile/img/icons/minusIconGreen.svg);
+}
+
+.moreDetails li:before {
+  background-color: #5C591A;
+}
+
+.sizeButtonBox {
+  background-image: url(/fronts_mobile/img/backgrounds/buttons.jpg);
+  background-size: 100% 100%;
+}
+
+.sizeButton {
+  background-image: url(/fronts_mobile/img/icons/cartPlusOlive.svg);
+}
+
+.sizeButton.sizeChecked:after,
+.addToWishProduct.addedToWish:after {
+  border-color: #5C591A;
+}
+
+.sliderContainer h3 {
+  color: #5C591A;
+}
+
+.sizeContainerProduct {
+  position: absolute;
+  bottom: -100%;
+  width: 100vw;
+  z-index: 5;
+  background-image: url(/fronts_mobile/img/icons/sizeBack.jpg);
+  background-size: cover;
+  -webkit-transition: bottom .5s ease;
+  transition: bottom .5s ease;
+}
+
+.sizeContainerProduct .head {
+  background: url("/fronts_mobile/img/about/one2.jpg");
+  background-size: 100%;
+}
+
+.sizeContainerProduct .head p {
+  color: #5C591A;
+}
+
+.sizeContainerProduct .head p:last-child {
+  background-image: url(/fronts_mobile/img/icons/ruler.svg);
+}
+
+.sizeContainerProduct .sizeCheck {
+  color: #5C591A;
+}
+
+.sizeContainerProduct .sizeCheck .check {
+  color: #5C591A;
+  border: 1px solid #85736B;
+  background-color: #eddcd5;
+}
+
+.sizeContainerProduct .sizeCheck .count {
+  color: #5C591A;
+}
+
+.sizeContainerProduct .sizeCheck input:disabled ~ .check,
+.sizeContainerProduct .sizeCheck input:disabled ~ .check .count {
+  color: rgba(92, 89, 26, 0.4);
+}
+
+.sizeContainerProduct .sizeCheck input:checked ~ .check {
+  background: url("/fronts_mobile/img/about/one2.jpg");
+  background-size: 100%;
+  color: #5C591A;
+}
+
+.modal #codSelected {
+  background: #fffcf5;
+}
+
+.clientArea,
+.cartClass,
+.oneProductContent {
+  background: #fffcf5;
+}
+
+.oneProductContent .description {
+  background: #fffcf5;
+}
+
+.selSize .check,
+.modal .modalContent,
+.sizeContainerProduct .sizeCheck .check,
+.navArea {
+  background: #f7eee7 !important;
+}
+

@@ -1,0 +1,138 @@
+/*
+* Style for nestable
+*/
+
+.nestable {
+    position: relative;
+}
+
+.nestable .nestable-list {
+    margin: 0;
+    padding: 0 0 0 40px;
+    list-style-type: none;
+}
+
+.nestable>.nestable-list {
+    padding: 0;
+}
+
+.nestable-item:first-child,
+.nestable-item-copy:first-child {
+    margin-top: 0;
+}
+
+.nestable-item .nestable-list,
+.nestable-item-copy .nestable-list {
+    /* margin-top: 10px; */
+}
+
+.nestable-item {
+    position: relative;
+}
+
+.nestable-item.is-dragging .nestable-list {
+    pointer-events: none;
+}
+
+.nestable-item.is-dragging * {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.nestable-item.is-dragging:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(106, 127, 233, 0.274);
+    border: 1px dashed rgb(73, 100, 241);
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.nestable-drag-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    pointer-events: none;
+}
+
+.nestable-drag-layer>.nestable-list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    background-color: rgba(106, 127, 233, 0.274);
+}
+
+.nestable [draggable="true"] {
+    cursor: move;
+}
+
+.nestable-handle {
+    padding: 8px 15px;
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, .5);
+}
+
+.nestable-item-content {
+    background-color: #FFF;
+    border-top: 1px solid #ecedf1;
+    border-bottom: 1px solid #ecedf1;
+    border-radius: 3px;
+    min-width: 100% !important;
+}
+
+.nestable-handle span {
+    margin-left: 20px;
+}
+
+.nestable-handle:hover {
+    background-color: #ecedf1;
+    box-shadow: none;
+}
+
+.sets .nestable-handle {
+    border-left: 3px solid #85CE36;
+}
+
+.products .nestable-handle {
+    border-left: 3px solid #85CE36;
+}
+
+.collection .nestable-handle {
+    border-left: 3px solid #85CE36;
+}
+
+.nestable-handle button {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 0;
+}
+
+.nestable-handle a {
+    margin: 2px 10px;
+    display: inline-block;
+}
+
+.nestable-handle a.disable {
+    cursor: no-drop;
+    opacity: .5;
+}
+
+.categories-cover {
+    width: 90%;
+}
+
+.product-search>div {
+    height: 50px;
+    position: relative;
+}
+
+.product-search>div img {
+    position: absolute;
+    top: -15px;
+}

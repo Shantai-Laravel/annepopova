@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="26px" viewBox="0 0 39 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="AnaPopova-Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home_page_APL-Copy" transform="translate(-118.000000, -513.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="banner" transform="translate(-1.000000, 214.000000)">
+                <g id="arrows" transform="translate(119.000000, 286.000000)">
+                    <g id="Group-10-Copy" transform="translate(19.500000, 26.000000) scale(-1, 1) translate(-19.500000, -26.000000) translate(0.000000, 13.000000)">
+                        <path d="M39,12.9990641 C38.988576,12.5555677 38.8549726,12.2882133 38.6839439,12.0963276 L29.295055,0.541292814 C28.8516123,-0.0839425048 27.8465717,-0.182882428 27.218313,0.324823816 C26.5899821,0.832530061 26.5566155,1.78182613 27.0607247,2.34676587 L34.5311821,11.5546857 L1.44443888,11.5546857 C0.646675288,11.5546857 0,12.2013339 0,12.9990641 C0,13.7967943 0.646675288,14.4434425 1.44443888,14.4434425 L34.5311821,14.4434425 L27.0607247,23.6513551 C26.4888714,24.2219568 26.6513707,25.2227666 27.2550017,25.7596421 C27.7196055,26.172951 28.957923,26.0412237 29.295055,25.4568282 L38.6839439,13.9018006 C38.9284513,13.6025254 39.0028904,13.3800189 39,12.9990641 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

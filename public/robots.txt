@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+Disallow: *..*
+Disallow: *.htm$
+Disallow: *.php*
+Disallow: *?page=*
+Disallow: */back*
+Sitemap: https://admin.itmall.digital/sitemap.xml
+
+
+User-agent: Googlebot
+Allow: /
+Disallow: *..*
+Disallow: *.htm$
+Disallow: *.php*
+Disallow: *?page=*
+Disallow: */back*
+Sitemap: https://admin.itmall.digital/sitemap.xml
+
+User-agent: Googlebot-image
+
+User-agent: Yandex
+Allow: /
+Disallow: *..*
+Disallow: *.htm$
+Disallow: *.php*
+Disallow: *?page=*
+Disallow: */back*
+Sitemap: https://admin.itmall.digital/sitemap.xml

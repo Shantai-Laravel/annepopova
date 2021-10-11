@@ -1,0 +1,211 @@
+/* Green old: backgroud alb       HP background sub sliders Categorii */
+
+/* DARK OLIVE DE ADAUGAT: HP background sub section 4 advantages (sub main Slider) si about Us section */
+
+/*1. Primul topbar APL
+					                    2. Filters Section	*/
+
+/* topbar 2 */
+
+/*1. APL Background la submeniu in topbar
+                     					2. Pages background: Cat-one-main-section
+                     														   Promo-all-Page
+                     															 Outlet-main-section
+                     															 Prod-one-main-section
+                     															 Collection-one-seturi-impare
+                     															 Favorites-all-Page */
+
+/* 1. Pages background: Prod-one-similar-and-recently-viewed-prods
+//																			              Outlet-recently-viewed-prods
+//																			              Cabinet-summary-menu */
+
+/* APJ footer and header */
+
+/*	1. APJ Background la submeniu in topbar
+															        2. Pages background: Collection-one-seturi-pare
+															           Cart-Checkout-Pages-all-Page
+																			   Cabinet-main-page-section*/
+
+/* 1. Pages background: Prod-one-similar-and-recently-viewed-prods
+																			  Outlet-recently-viewed-prods
+																			  Cabinet-summary-menu */
+
+/* Green old: backgroud alb       HP background sub sliders Categorii */
+
+/* DARK OLIVE DE ADAUGAT: HP background sub section 4 advantages (sub main Slider) si about Us section */
+
+/* collection buttons HP,
+                                                                    add to cart and wish one product page,
+                                                                    add to cart collection page,
+                                                                    modal form button submit,
+                                                                    404 page button,
+                                                                    thank you page button,
+                                                                    bijoux button topbar1,
+                                                                    promocode button,
+                                                                    order summary steps,
+                                                                    promocodes page discount */
+
+/*ORAQNGE  Popups background: Country-lang-selection
+											  Registration-login-when-clicking-on-cabinet-icon
+											  Registration-login-when-making-order
+											  Filter */
+
+/* contact page from,
+                            order summary label,
+                            modal labels,
+                            input modal,
+                            inputs and textarea */
+
+.homeContent .points {
+  background: #fffcf5;
+}
+
+.homeContent .points #Home_Page_375,
+.homeContent .points .item span,
+.homeContent .points a {
+  fill: #5C591A;
+  color: #5C591A;
+}
+
+.homeContent aside h4 {
+  color: #5C591A;
+}
+
+.homeContent .about .text h4 {
+  color: #5C591A;
+}
+
+.homeContent .collection {
+  background: #f1e9e6;
+}
+
+.homeContent .collection:nth-child(even) {
+  background: #f3ece2;
+}
+
+.homeContent .about {
+  background: #fffcf5;
+}
+
+.oneProduct a {
+  color: #5C591A;
+}
+
+.oneProduct .price {
+  color: #5C591A;
+}
+
+.categoryContent {
+  background-image: #fffcf5;
+}
+
+.categoryContent .titleabs {
+  color: #5C591A;
+}
+
+.categoryContent .filterContainer {
+  background-image: url(/fronts/img/backgrounds/footer.jpg);
+}
+
+.categoryContent .filterContainer #filterButton,
+.categoryContent .filterContainer .filterButton,
+.categoryContent .filterContainer .checkContainer,
+.categoryContent .filterContainer button {
+  color: #5C591A;
+}
+
+.categoryContent .filterContainer #filterButton span:nth-child(2) {
+  background-image: url(/fronts_mobile/img/icons/plusIconGreen.svg);
+}
+
+.categoryContent .filterContainer #filterButton span:first-child {
+  background-image: url(/fronts/img/icons/filterIconJrw.svg);
+}
+
+.categoryContent .filterContainer .filterButton {
+  background-image: url(/fronts_mobile/img/icons/plusIconGreen.svg);
+}
+
+.categoryContent .filterContainer .filterButton.active {
+  background-image: url(/fronts_mobile/img/icons/minusIconGreen.svg);
+}
+
+.categoryContent .filterContainer button:first-child {
+  background-image: #fffcf5;
+  background-size: 100% 100%;
+}
+
+.oneProductContent section {
+  background-image: #fffcf5;
+}
+
+.oneProductContent aside .name {
+  color: #5C591A;
+}
+
+.oneProductContent .addToCart {
+  color: #5C591A;
+}
+
+.oneProductContent .addToCart #Shape {
+  fill: #5C591A;
+}
+
+.oneProductContent .additionalSlide .title {
+  color: #5C591A;
+}
+
+.titlePage h3 {
+  color: #5C591A;
+}
+
+.collectionContent section:nth-child(odd) {
+  background-image: #fffcf5;
+}
+
+.collectionContent section:nth-child(even) {
+  background-image: #fffcf5;
+}
+
+.collectionContent .buttonsSet span {
+  color: #5C591A;
+}
+
+.collectionContent .buttonsSet #wishButton,
+.collectionContent .buttonsSet #cartButton,
+.collectionContent .buttonsSet #Shape {
+  fill: #5C591A;
+}
+
+.collectionContent .buttonsSet .wishButton {
+  background-image: url(/fronts/img/backgrounds/onSubmit.jpg);
+}
+
+.outlet,
+.promo,
+.wishContent {
+  background-image: #fffcf5;
+}
+
+.outlet .additionalSlide .title,
+.promo .additionalSlide .title,
+.wishContent .additionalSlide .title {
+  color: #5C591A;
+}
+
+.contactContent {
+  background: #fffcf5;
+}
+
+.contactContent .imageContainer {
+  background: #fffcf5;
+}
+
+.contactContent .fonop {
+  background-color: rgba(255, 252, 245, 0.7);
+}
+
+.aboutContent {
+  background: #fffcf5;
+}
+

@@ -1,0 +1,71 @@
+
+/* header, footer */
+
+header,
+header.loungewear .burger,
+header.loungewear .tabHeader #loungewearButton.buttHeader,
+footer.footerLoungewear,
+footer .fonran,
+header.loungewear .navOpen {
+  background: #eddcd5;
+}
+
+header .networks {
+  margin-left: -10px;
+}
+
+header .settings {
+  padding-left: 0;
+  margin-top: 0;
+  display: block;
+}
+
+header .widthSettings {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  white-space: nowrap;
+}
+
+header .settings img {
+  display: inline-block;
+  width: 30px;
+  position: relative;
+  top: 7px;
+  margin-left: 10px;
+}
+header .settings p:nth-child(2) {
+  position: relative;
+  top: 4px;
+}
+header .settings a {
+  position: relative;
+  top: 7px;
+  text-decoration: underline;
+}
+
+header .settings p,
+header .settings a {
+  font-size: 20px;
+  line-height: 2.3;
+  color: #42261D;
+  font-family: GillSans-Light;
+  padding-left: 0 !important;
+  text-transform: uppercase;
+}
+
+
+header .networks {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+
+}
+
+header .networks .dspflex {
+  justify-content: center;
+}
+
+.navCollection .navOpen {
+  z-index: 4;
+}

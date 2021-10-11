@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="20px" viewBox="0 0 30 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="project_20200129_150142" transform="translate(-1767.000000, -70.000000)" fill-rule="nonzero">
+            <g transform="translate(-359.000000, -1053.000000)" id="Group-8">
+                <g>
+                    <g id="Group-16" transform="translate(355.500000, 1024.000000)">
+                        <g id="Group" transform="translate(1669.500000, 99.000000)">
+                            <g id="Group-6" transform="translate(101.000000, 0.000000)">
+                                <rect id="Rectangle" fill="#FFDA44" x="0" y="0" width="30" height="20"></rect>
+                                <rect id="Rectangle" fill="#D80027" x="19" y="0" width="11" height="20"></rect>
+                                <rect id="Rectangle" fill="#0052B4" x="0" y="0" width="11" height="20"></rect>
+                                <path d="M18,8.01299623 L15.5937537,8.01299623 C15.5937537,7.45361219 15.1040379,7 14.5,7 C13.8959032,7 13.4062463,7.45355758 13.4062463,8.01299623 L11,8.01299623 C11,8.56386174 11.5180752,9.01037514 12.1127975,9.01037514 L12.0769503,9.01037514 C12.0769503,9.56124065 12.5590014,10.0078087 13.1538416,10.0078087 C13.1538416,10.495495 13.5320065,10.9007809 14.0315095,10.987386 L13.1829085,12.7618086 C13.5894918,12.9149238 14.0339269,13 14.499941,13 C14.9659552,13 15.4103314,12.9149238 15.8169735,12.7618086 L14.9684315,10.987386 C15.4678756,10.9007809 15.8460994,10.495495 15.8460994,10.0078087 C16.4409396,10.0078087 16.9229908,9.56118604 16.9229908,9.01037514 L16.8870845,9.01037514 C17.4819837,9.01032054 18,8.56375253 18,8.01299623 Z" id="Path" fill="#FF9811"></path>
+                                <polygon id="Path" fill="#0052B4" points="15.5 9 14 9.69229334 14 11.0769422 15.5 12 17 11.0769422 17 9.69229334"></polygon>
+                                <rect id="Rectangle" fill="#D80027" x="13" y="9" width="3" height="1"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
